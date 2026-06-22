@@ -1,0 +1,4 @@
+@EndUserText.label: 'Spacefarer Service'
+define service ZUI_SFARER {
+  expose ZKA0622_ZC_SFARER as Spacefarer;
+}

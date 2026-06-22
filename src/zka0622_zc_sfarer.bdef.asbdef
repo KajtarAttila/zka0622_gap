@@ -1,0 +1,16 @@
+projection;
+
+use draft;
+
+define behavior for ZKA0622_ZC_SFARER
+{
+
+  use create;
+  use update;
+  use delete;
+
+  use action Edit;
+  use action Activate;
+  use action Discard;
+  use action Resume;
+}

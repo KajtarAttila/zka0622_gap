@@ -1,0 +1,22 @@
+managed implementation in class zbp_i_sfarer unique;
+
+with draft;
+
+define behavior for ZKA0622_VI_SFARER
+persistent table zka0622_t_sfarer
+draft table zka0622_d_sfarer
+lock master
+total etag last_changed_at
+{
+  create;
+  update;
+  delete;
+
+//  determination set_id on modify { create; }
+
+  determination prepare on modify { create; update; }
+
+  validation validate_reputation on save { create; update; }
+
+  field ( readonly ) spacefarer_id;
+}

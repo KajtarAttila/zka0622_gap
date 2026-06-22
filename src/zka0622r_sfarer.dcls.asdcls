@@ -1,0 +1,6 @@
+@MappingRole: true
+@EndUserText.label: 'Spacefarer Authorization'
+define role ZKA0622R_SFARER {
+    grant select
+    on ZKA0622_VI_SFARER;
+}
