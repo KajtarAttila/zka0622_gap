@@ -66,28 +66,28 @@ CLASS zka0622_testdata IMPLEMENTATION.
         color = 'Blue'
         weight = '10.50'
         state_of_matter = 'Solid'
-        value = 12000 )
+        value = 12 )
 
       ( client = sy-mandt stardust_id = '0000001002'
         collection_id = '0000000101'
         color = 'Purple'
         weight = '5.20'
         state_of_matter = 'Gas'
-        value = 8000 )
+        value = 80 )
 
       ( client = sy-mandt stardust_id = '0000001003'
         collection_id = '0000000102'
         color = 'Gold'
         weight = '12.00'
         state_of_matter = 'Liquid'
-        value = 25000 )
+        value = 25 )
 
       ( client = sy-mandt stardust_id = '0000001004'
         collection_id = '0000000103'
         color = 'Green'
         weight = '7.75'
         state_of_matter = 'Solid'
-        value = 15000 )
+        value = 15 )
     ).
 
     MODIFY zka0622_t_sdust FROM TABLE @lt_sdust.

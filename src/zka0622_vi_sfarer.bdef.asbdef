@@ -12,6 +12,10 @@ total etag last_changed_at
   update;
   delete;
 
+  action buy parameter ZKA0622_A_BUY;
+  action sell parameter ZKA0622_A_SELL;
+  action exchange parameter ZKA0622_A_EXCHANGE;
+
 //  determination set_id on modify { create; }
 
   determination prepare on modify { create; update; }

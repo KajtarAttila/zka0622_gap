@@ -13,4 +13,8 @@ define behavior for ZKA0622_ZC_SFARER
   use action Activate;
   use action Discard;
   use action Resume;
+
+  use action buy;
+  use action sell;
+  use action exchange;
 }

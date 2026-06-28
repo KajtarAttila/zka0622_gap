@@ -1,0 +1,12 @@
+managed implementation in class zbp_i_sdust unique;
+
+define behavior for ZKA0622_VI_SDUST
+persistent table zka0622_t_sdust
+lock master
+{
+  create;
+  update;
+  delete;
+
+  field ( readonly ) stardust_id;
+}
